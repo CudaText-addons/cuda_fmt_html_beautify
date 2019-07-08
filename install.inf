@@ -1,0 +1,12 @@
+[info]
+title=Formatter for HTML: Beautify
+desc=Formats/indents HTML code. Uses engine from HTMLBeautify plugin for Sublime Text.
+type=cudatext-plugin
+subdir=cuda_fmt_html_beautify
+homepage=https://github.com/CudaText-addons/cuda_fmt_html_beautify
+
+[fmt1]
+caption=HTML Beautify
+method=format
+lexers=HTML.*
+config=cuda_html_beautify.json
