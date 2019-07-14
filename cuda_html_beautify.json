@@ -1,4 +1,6 @@
 {
+  "tab_size": 2,
+
   // indicates tags whose contents should be ignored (add more as needed)
   "ignored_tag_opening" : "<script|<style|<!--|{\\*|<\\?php",
   // indicates when to stop ignoring

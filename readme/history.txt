@@ -1,3 +1,7 @@
 
+2019.07.14
++ add option "tab_size"
+- fix formatting passive editors
+
 2019.07.09
 initial version

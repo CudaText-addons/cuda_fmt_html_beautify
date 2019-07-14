@@ -1,8 +1,6 @@
-Formatter for CudaText.
-Uses engine from HTMLBeautify plugin for Sublime Text, https://github.com/rareyman/HTMLBeautify
-
-Author: Alexey T. (CudaText)
-License: Creative Commons
+Formatter for HTML (lexer name can be any starting with "HTML").
+Uses engine from HTMLBeautify plugin for Sublime Text:
+https://github.com/rareyman/HTMLBeautify
 
 ***** Notes from original plugin
 
@@ -19,3 +17,7 @@ License: Creative Commons
         <!-- this comment is ok too -->
         
 - Use tag_pos_inline setting to define tags that _might_ appear on one line.
+
+
+Author: Alexey Torgashin (CudaText)
+License: Creative Commons

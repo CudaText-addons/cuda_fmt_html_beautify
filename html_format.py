@@ -7,9 +7,10 @@
 # Refactored: Alexey T (CudaText)
 
 import re
-import cudatext
 
 def do_html_format(rawcode, settings):
+
+    tab_size = settings.get('tab_size', 2)
 
     # the contents of these tags will not be indented
     ignored_tag_opening = settings.get('ignored_tag_opening')
@@ -123,10 +124,6 @@ def do_html_format(rawcode, settings):
         beautified_code = beautified_code + tmp + '\n'
 
     # remove leading and trailing white space
-    beautified_code = beautified_code.strip()
-
-    if cudatext.ed.get_prop(cudatext.PROP_TAB_SPACES):
-        tabsize = cudatext.ed.get_prop(cudatext.PROP_TAB_SIZE)
-        beautified_code = beautified_code.replace('\t', ' '*tabsize)
+    beautified_code = beautified_code.strip().replace('\t', ' '*tab_size)
 
     return beautified_code

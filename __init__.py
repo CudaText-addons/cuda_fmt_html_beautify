@@ -1,6 +1,4 @@
-import os
 import json
-import cudatext
 from .jsoncomment import JsonComment
 from .html_format import *
 from cuda_fmt import get_config_filename
