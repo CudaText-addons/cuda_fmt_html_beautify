@@ -8,5 +8,5 @@ homepage=https://github.com/CudaText-addons/cuda_fmt_html_beautify
 [fmt1]
 caption=HTML Beautify
 method=format
-lexers=HTML.*
+lexers=regex:HTML.*
 config=cuda_html_beautify.json
