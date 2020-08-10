@@ -1,7 +1,10 @@
 
+2020.08.10
+- fix: lexer name in .inf
+
 2019.07.14
-+ add option "tab_size"
-- fix formatting passive editors
++ add: option "tab_size"
+- fix: formatting passive editors
 
 2019.07.09
 initial version
